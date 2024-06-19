@@ -1,0 +1,124 @@
+:root{
+    --lurji: darkcyan;
+}
+.second-row{
+    display: flex;
+    flex-direction: column;
+}
+.a-btn{
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: darkcyan;
+    width: fit-content;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    font-weight: 400;
+    padding: 0px;
+    /* color: #fff; */
+}
+.first-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    background-color: var(--lurji);
+    border-radius: 20px;
+    color: #fff;
+    padding-bottom: 29px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.light-a-btn{
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.mine-div{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.size{
+    width: 50px;
+    height: 50px;
+
+}
+
+.ic{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.second-row-cen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.user-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    background-color: var(--lurji);
+    border-radius: 20px;
+    color: #fff;
+    padding: 29px 0px;
+    margin-top: 20px;
+    position: relative;
+}
+.s-user-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #000000;
+    padding: 29px 0px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.user{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+.user:hover{
+    transform: 360deg;
+}
